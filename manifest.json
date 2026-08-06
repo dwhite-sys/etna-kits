@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "kits": [
+    {
+      "name": "Ntfy",
+      "stem": "ntfy",
+      "description": "Send push notifications to a self-hosted ntfy instance.",
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/dwhite-sys/etna-kits/main/kits/ntfy/versions/1.0.0/ntfy.py",
+      "ekp_url": "https://raw.githubusercontent.com/dwhite-sys/etna-kits/main/kits/ntfy/versions/1.0.0/ntfy.ekp"
+    },
+    {
+      "name": "Web Kit",
+      "stem": "web",
+      "description": "Web crawling, search, and HTTP request toolkit.",
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/dwhite-sys/etna-kits/main/kits/web/versions/1.0.0/web.py",
+      "ekp_url": "https://raw.githubusercontent.com/dwhite-sys/etna-kits/main/kits/web/versions/1.0.0/web.ekp"
+    },
+    {
+      "name": "Playwright",
+      "stem": "playwright",
+      "description": "Browser automation via Chrome CDP \u2014 drives the user's visible Chrome instance.",
+      "version": "1.0.1",
+      "url": "https://raw.githubusercontent.com/dwhite-sys/etna-kits/main/kits/playwright/versions/1.0.1/playwright.py",
+      "ekp_url": "https://raw.githubusercontent.com/dwhite-sys/etna-kits/main/kits/playwright/versions/1.0.1/playwright.ekp"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Tool Discovery",
+      "stem": "tool-discovery",
+      "description": "How to discover and load Etna kits, tools, and skills on demand.",
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/dwhite-sys/etna-kits/main/skills/tool-discovery/versions/1.0.0/tool-discovery.skill"
+    },
+    {
+      "name": "Visualization",
+      "stem": "visualization",
+      "description": "Guidance for choosing and creating the right kind of visual output in Vulcan.",
+      "version": "1.0.0",
+      "url": "https://raw.githubusercontent.com/dwhite-sys/etna-kits/main/skills/visualization/versions/1.0.0/visualization.skill"
+    }
+  ]
+}

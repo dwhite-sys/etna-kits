@@ -13,9 +13,9 @@
       "name": "Web Kit",
       "stem": "web",
       "description": "Web crawling, search, and HTTP request toolkit.",
-      "version": "1.2.0",
-      "url": "https://raw.githubusercontent.com/dwhite-sys/etna-kits/main/kits/web/versions/1.2.0/web.py",
-      "ekp_url": "https://raw.githubusercontent.com/dwhite-sys/etna-kits/main/kits/web/versions/1.2.0/web.ekp"
+      "version": "1.2.1",
+      "url": "https://raw.githubusercontent.com/dwhite-sys/etna-kits/main/kits/web/versions/1.2.1/web.py",
+      "ekp_url": "https://raw.githubusercontent.com/dwhite-sys/etna-kits/main/kits/web/versions/1.2.1/web.ekp"
     },
     {
       "name": "Playwright",

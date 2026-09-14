@@ -11,7 +11,7 @@ requirements    = ["requests"]
 config          = {"NTFY_URL": "https://ntfy.sh"}
 
 def _base_url() -> str:
-    return os.getenv("NTFY_URL", "https://ntfy.sh").rstrip("/")
+    return config["NFTY_URL"]
 
 @tool
 def ntfy_send(topic: str, message: str, title: str = "", priority: str = "default", tags: str = "") -> dict:

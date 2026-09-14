@@ -8,10 +8,10 @@ import requests
 kit_name        = "Ntfy"
 kit_description = "Send push notifications to a self-hosted ntfy instance."
 requirements    = ["requests"]
-config          = {"NTFY_URL": "https://nfty.koholint.net"}
+config          = {"NTFY_URL": "https://ntfy.sh"}
 
 def _base_url() -> str:
-    return os.getenv("NTFY_URL", "https://nfty.koholint.net").rstrip("/")
+    return os.getenv("NTFY_URL", "https://ntfy.sh").rstrip("/")
 
 @tool
 def ntfy_send(topic: str, message: str, title: str = "", priority: str = "default", tags: str = "") -> dict:
@@ -66,7 +66,7 @@ def ntfy_send_link(topic: str, message: str, link_url: str, title: str = "", pri
     Returns {"status": "ok", "topic": str} on success or {"error": str} on failure.
     """
     url = f"{_base_url()}/{topic}"
-    headers = {
+    headers = {https://nfty.koholint.net
         "Actions": f"view, Open, {link_url}"
     }
     if title:

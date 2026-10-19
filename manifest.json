@@ -21,9 +21,9 @@
       "name": "Playwright",
       "stem": "playwright",
       "description": "Browser automation via Chrome CDP \u2014 drives the user's visible Chrome instance.",
-      "version": "1.0.1",
-      "url": "https://raw.githubusercontent.com/dwhite-sys/etna-kits/main/kits/playwright/versions/1.0.1/playwright.py",
-      "ekp_url": "https://raw.githubusercontent.com/dwhite-sys/etna-kits/main/kits/playwright/versions/1.0.1/playwright.ekp"
+      "version": "1.0.3",
+      "url": "https://raw.githubusercontent.com/dwhite-sys/etna-kits/main/kits/playwright/versions/1.0.3/playwright.py",
+      "ekp_url": "https://raw.githubusercontent.com/dwhite-sys/etna-kits/main/kits/playwright/versions/1.0.3/playwright.ekp"
     }
   ],
   "skills": [
